@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+body {
+  background-image: url(../images/default-background.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.cursos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cursos-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1em;
+}
+
+table {
+  border: 1px solid black;
+  box-shadow: -10px -5px 30px 5px rgba(0, 0, 0, 0.188);
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  width: 60em;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.094);
+  text-align: center;
+  padding: 1em;
+  border-collapse: collapse;
+  background-color: rgb(255, 255, 255);
+}
+
+th {
+  background-color: rgb(255, 255, 255);
+}
+
+thead th {
+  background-color: rgb(40, 40, 40);
+  color: #fff;
+  border: 3px solid rgba(255, 255, 255, 0.165);
+}
+
+#edit-link {
+  background-color: rgb(126, 142, 5);
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#edit-link:hover {
+  background-color: rgb(151, 169, 18);
+}
+
+#delete-link {
+  background-color: rgb(158, 44, 6);
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#delete-link:hover {
+  background-color: rgb(189, 69, 29);
+}
+
+#btn-sair-admin {
+  background-color: rgb(217, 217, 217);
+  color: #000000;
+}
+
+#btn-sair-admin:hover {
+  background-color: rgb(89, 149, 197);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons input {
+  margin: 1em;
+}

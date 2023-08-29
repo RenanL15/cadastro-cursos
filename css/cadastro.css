@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+body {
+  background-image: url(../images/background-cadastro.png);
+}
+
+.cadastro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#btn-ver-cursos {
+  margin-top: 1em;
+  padding: 0.5em 5em 0.5em;
+  border-radius: 1em;
+  font-size: 1.5rem;
+  background-color: #13bfa5;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 300ms ease;
+}
+
+#btn-ver-cursos:hover {
+  background-color: rgb(22, 178, 155);
+}
+
+#btn-ver-cursos:active {
+  transform: translateY(-2px);
+}
+
+a {
+  color: rgba(255, 255, 255, 0.808);
+  margin: 1em;
+  letter-spacing: 1px;
+}

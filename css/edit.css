@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+body {
+  background-image: url(../images/background-cadastro.png);
+}
+
+.edit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#btn-voltar {
+  margin-top: 1em;
+  padding: 0.5em 5em 0.5em;
+  border-radius: 1em;
+  font-size: 1.5rem;
+  background-color: #13bfa5;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 300ms ease;
+}
+
+#btn-voltar:hover {
+  background-color: rgb(22, 178, 155);
+}
+
+#btn-voltar:active {
+  transform: translateY(-2px);
+}
